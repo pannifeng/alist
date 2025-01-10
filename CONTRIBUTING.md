@@ -6,8 +6,8 @@
 
 Prerequisites:
 
-- [git](https://nodejs.org/zh-cn/)
-- [Go 1.18+](https://golang.org/doc/install)
+- [git](https://git-scm.com)
+- [Go 1.20+](https://golang.org/doc/install)
 - [gcc](https://gcc.gnu.org/)
 - [nodejs](https://nodejs.org/)
 
@@ -28,6 +28,9 @@ $ go run main.go
 ```shell
 $ pnpm dev
 ```
+
+## Add a new driver
+Copy `drivers/template` folder and rename it, and follow the comments in it.
 
 ## Create a commit
 
